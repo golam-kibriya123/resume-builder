@@ -10,6 +10,7 @@ main {
 
 /* input styles */
 .container {
+
     width: 100%;
     margin-top: 10px;
     padding: 0;
@@ -26,20 +27,17 @@ main {
 
 
 }
-
-.inputs {}
-
 .input-box {
     width: 250px;
     position: relative;
 }
 
 .input-box input {
-    color: aqua;
+    color: rgb(117, 186, 186);
     width: 100%;
     padding: 10px;
     border: none;
-    background-color: #1d2b3a;
+    border: 1px solid #1d2b3a;
     font-size: 13px;
     outline: none;
     text-transform: capitalize;
@@ -48,7 +46,7 @@ main {
 .input-box span {
     position: absolute;
     left: 10px;
-    color: rgba(225, 225, 225, 0.5);
+    color: rgba(15, 8, 8, 0.5);
     padding: 10px;
     text-transform: uppercase;
     transition: 0.5s;
@@ -62,7 +60,6 @@ main {
     transform: translateX(10px) translateY(-7px);
     background-color: aqua;
     padding: 0 10px;
-
     letter-spacing: 0.2em;
 
 }
@@ -72,4 +69,29 @@ main {
     border: 1px solid aqua;
 }
 
-.input-header {}
+/* ===button=== */
+.plus-button {
+    background-color: white;
+    border: 1px solid #1d2b3a;
+    margin-bottom: 5px;
+}
+
+.plus-button h1 {
+    width: 50px;
+    font-weight: normal;
+    color: #1d2b3a;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -6px;
+    margin-left: -6px;
+}
+
+.plus-button:hover {
+
+    background-color: rgb(59, 235, 86);
+    border: none;
+}
+
+.plus-button h1:hover {
+    color: white;
+}
